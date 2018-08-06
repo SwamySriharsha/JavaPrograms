@@ -3,15 +3,10 @@
 3. Write a java program to reverse a string without using reverse() method?
 4. Given a string s1 and a string s2, write a java method to say whether s2 is a rotation of s1 ?
 	Example : given s1 = abcd and s2 = cdab, return true, given s1 = abcd, and s2 = acbd , return false
-
-
-
-	
 5. Write a java program to remove characters from the first string which are present in the second string?
-
-6. Write a java program to print all the duplicate characteres in the given string?
-
+6. Write a java program to print all the duplicate characters in the given string?
 7. Write a java program to find the most repeated character in the given string?
+
 
 8. Write a java program to reverse a words in a given string?
 Example : i love raudra and ravindra
