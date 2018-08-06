@@ -1,0 +1,65 @@
+
+<============================ FOLDERS ===================================>
+01. Introduction
+02. Variables
+03. Scanner Class:
+                  Scanner sc = new Scanner(System.in);
+                  int myNum = sc.nextInt();
+04. Datatypes and Literals
+05. Operators
+06. Control Statements
+07. Static Vars and Methods 
+08. Classes and Objects: 
+                        objects and classes, how to create an object, class fields,
+                        methods, instance vs local vars, variable scope, method overloading,
+                        intro to constructors, types of constructors, method vs constructor,
+                        this keyword.
+09. Enum
+10. Object Orientation:
+    Encapsulation: - combine all the related things(vars and methods) into same class.
+                   - don't let everyone access the state(var values) of the object directly(by making them private). let only methods(setters and getter public methods) in the particular class access the variables. *(public vs private example)
+                   - credit card example
+
+    Inheritance:   - vehicle example, Is A relationship, car is a vehicle.
+                   - super class: general kind of thing   class Vehicle
+                     sub class:   specific kind of thing  class Car extends Vehicle
+                   - *example-1,2 on inheritance
+                   - usage of access modifiers in inheritance, protected, super keyword.
+                   - super() is also used to invoke parent class constructor(internally).
+                   - this() and super() can't be used together. 
+                   - instanceof() is used only for object reference variables to check their instance.
+                   - diamond problem: multiple inheritance of classes is not allowed in java.
+                     but multi level inheritance can be there.
+                   - https://www.geeksforgeeks.org/java-gq/inheritance-2-gq/  
+
+    Aggregation:   - stu emp address example, Has A relationship, stu has a address.
+                   - class A(student) has-a relationship with class B(address), if class A has
+                     reference to an instance of class B.
+    
+    Polymorphism:  - method overloading: Compile time (static) polymorphism.
+                   - method overriding: declaring a method in subclass which already present in parent class.
+                     Run time (dynamic) polymorphism.
+                   - dynamic method dispatch *video L-14
+                   - rules for method overriding
+
+    Abstraction:   - process of hiding the implementation details and showing only the functionlity
+                   - it can be achieved by using abstract class and interface.
+                   - example on abstraction *video L-18
+                   - abstract class need not be 100% abstraction but interface provides 100%.
+                   - multiple inheritance of interfaces is allowed in java.
+                   - **https://www.javatpoint.com/abstract-class-in-java
+
+    - final variable, final method, final class
+    - designing singleton class
+    - garbage collection
+    - finalize method - gc will run this before freeing up the space.
+    - coupling and cohesion
+11. Arrays
+12. Strings
+13.                              
+
+
+                                   
+                                              
+
+
