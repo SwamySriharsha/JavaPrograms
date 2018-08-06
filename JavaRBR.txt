@@ -56,7 +56,7 @@
     - coupling and cohesion
 11. Arrays
 12. Strings
-13.                              
+13. Regular Expressions                             
 
 
                                    
