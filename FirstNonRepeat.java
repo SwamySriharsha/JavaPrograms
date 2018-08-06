@@ -1,6 +1,6 @@
 class FirstNonRepeat{
 	public static void main(String[] args) {
-		String word = "ravindra"; //v
+		String word = "raviravi"; //v
 		int[] warr = new int[256];
 		for(int i=0; i<word.length(); i++){
 			warr[word.charAt(i)]++;
@@ -11,5 +11,6 @@ class FirstNonRepeat{
 				return;
 			}
 		}
+		System.out.println("There are no non repeating characters");
 	}
 }
