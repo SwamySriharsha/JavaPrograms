@@ -1,7 +1,7 @@
 class WelcomeJava{
 	public static void main(String[] args) {
 		for(int i=0;i<5;i++){
-			System.out.println("Welcome to JAVA \n");
+			System.out.println("Welcome to JAVA testing for webhooks \n");
 		}
 	}
 }
